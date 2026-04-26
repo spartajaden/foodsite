@@ -4,13 +4,13 @@
 
 🛠 사용 기술
 
-Java 21
-Spring Boot
-Thymeleaf (화면 구성)
-MyBatis (DB 연동)
-Oracle DB (데이터 저장)
-Bootstrap 5 (디자인)
-Gradle (빌드 도구)
+- Java 21
+- Spring Boot
+- Thymeleaf (화면 구성)
+- MyBatis (DB 연동)
+- Oracle DB (데이터 저장)
+- Bootstrap 5 (디자인)
+- Gradle (빌드 도구)
 
 📁 프로젝트 구조
 
