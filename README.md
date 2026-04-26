@@ -16,15 +16,27 @@
 
 foodsite
 ├── src/main/java/com/pknu26/foodsite
+
 │   ├── controller/FoodController.java   # 요청 처리
+
 │   ├── dto/Food.java                    # 데이터 클래스
+
 │   ├── mapper/FoodMapper.java           # DB 연동 인터페이스
+
 │   └── FoodsiteApplication.java         # 실행 진입점
+
 ├── src/main/resources
+
 │   ├── mapper/FoodMapper.xml            # SQL 쿼리
+
 │   ├── templates/food                   # 화면 HTML
+
 │   │   ├── list.html                    # 목록
+
 │   │   ├── addForm.html                 # 추가
+
 │   │   └── editForm.html               # 수정
+
 │   └── application.properties           # 설정 파일
+
 └── build.gradle                         # 의존성 관리
