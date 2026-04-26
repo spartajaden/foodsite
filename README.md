@@ -15,6 +15,7 @@
 📁 프로젝트 구조
 
 foodsite
+
 ├── src/main/java/com/pknu26/foodsite
 
 │   ├── controller/FoodController.java   # 요청 처리
