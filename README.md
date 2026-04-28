@@ -16,31 +16,22 @@
 
 foodsite
 
+```
 ├── src/main/java/com/pknu26/foodsite
-
 │   ├── controller/FoodController.java   # 요청 처리
-
 │   ├── dto/Food.java                    # 데이터 클래스
-
 │   ├── mapper/FoodMapper.java           # DB 연동 인터페이스
-
 │   └── FoodsiteApplication.java         # 실행 진입점
-
 ├── src/main/resources
-
 │   ├── mapper/FoodMapper.xml            # SQL 쿼리
-
 │   ├── templates/food                   # 화면 HTML
-
 │   │   ├── list.html                    # 목록
-
 │   │   ├── addForm.html                 # 추가
-
 │   │   └── editForm.html               # 수정
-
 │   └── application.properties           # 설정 파일
-
 └── build.gradle                         # 의존성 관리
+```
 
 📝 개발하면서 느낀 점
+
 - 처음 Spring Boot 프로젝트를 만들면서 오류도 많이 만났는데, 하나씩 해결하다 보니 전체적인 흐름을 이해할 수 있었습니다. 특히, MyBatis에서 Oracle DB와 연동할 때 jdbcType 설정이나 resultMap 개념이 중요하다는 걸 직접 겪으면서 배웠습니다.
